@@ -1,1 +1,7 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="]VH-U@Kk`(s:Z4aXVVCP" x="0" y="0"/><block type="device_forever" id="h8!^FJvLX04movtVi6^2" x="205" y="0"/></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="]VH-U@Kk`(s:Z4aXVVCP" x="0" y="0"><statement name="HANDLER"><block type="radio_set_group" id="0x;B-hn{++:0PMZ-n-$U"><value name="ID"><shadow type="math_number_minmax" id="{5F$oqGB+d~8,?-;_Y{,"><mutation min="0" max="255" label="Id" precision="0"/><field name="SLIDER">4</field></shadow></value></block></statement></block><block type="device_button_event" id="2Zvs9Glx]s3v$e}JwhDK" x="-4" y="181"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="radio_datagram_send_value" id="iExRpvWVpb;1pAWQLQ6B"><value name="name"><shadow type="text" id="P.k/GJgOp{Tg]X`I/rP."><field name="TEXT">Reset</field></shadow></value><value name="value"><shadow type="math_number" id="JfvZi(OD;Q9t/hIU8Orw"><field name="NUM">0</field></shadow></value><next><block type="device_show_leds" id="m~g)y2?bGohBY]^naArt"><field name="LEDS">`
+        . # . . . 
+        # # # # . 
+        . # . . # 
+        . . . . # 
+        . . # # .
+        `</field><next><block type="device_pause" id="@T}1{*!RG-aA{wS`Z8yu"><value name="pause"><shadow type="timePicker" id="}pAF8qL4tJtnVCpx^GmL"><field name="ms">1000</field></shadow></value><next><block type="device_clear_display" id="mQ2Xh}rU7:W@o2]S7r%*"/></next></block></next></block></next></block></statement></block></xml>
